@@ -12,6 +12,8 @@
 
 htmx + astro4, example
 
+* adapter: @astrojs/vercel
+
 ***
 ### build
 
