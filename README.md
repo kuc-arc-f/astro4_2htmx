@@ -4,13 +4,13 @@
 
  Author  : Kouji Nakashima / kuc-arc-f.com
 
- date    : 2024/07/07
+ date    : 2024/07/07 
 
  update :
 
 ***
 
-htmx + astro4, app
+htmx + astro4, example
 
 ***
 ### build
