@@ -2,7 +2,7 @@
 
  Version: 0.9.3
 
- Author  : Kouji Nakashima / kuc-arc-f.com
+ Author  : @kuc_arc_f
 
  date    : 2024/07/07 
 
@@ -13,6 +13,11 @@
 htmx + astro4, example
 
 * adapter: @astrojs/vercel
+
+***
+### stackblitz
+
+https://stackblitz.com/~/github.com/kuc-arc-f/astro4_2htmx
 
 ***
 ### build
