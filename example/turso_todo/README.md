@@ -13,3 +13,12 @@
 turso test
 
 ***
+### setup
+
+* .env
+
+```
+VITE_TURSO_AUTH_TOKEN=""
+VITE_TURSO_URL="libsql://"
+```
+***
