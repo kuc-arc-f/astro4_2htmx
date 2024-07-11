@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Welcome to Astro.">
+  <div  class="container mx-auto my-2 px-8 bg-white">
+    <form
+    hx-post="/api/auth/user_login"
+    hx-trigger="submit"
+    hx-target="#resulte_form1"
+    hx-on="htmx:afterRequest: Login.afterPostForm1()"
+    >
+      <h1 class="text-4xl font-bold my-2">Login!</h1>
+      <hr class="my-1" />
+      <label class="text-2xl font-bold my-2">Email:</label>
+      <input type="text" id="email" name="email"
+      class="input_text" /> 
+      <hr class="my-2" />
+      <label class="text-2xl font-bold my-2">Password:</label>
+      <input type="text" id="password" name="password"
+      class="input_text" /> 
+      <hr class="my-2" />   
+      <button type="submit" class="btn-purple" >Login
+      </button>
+    </form>
+    <div id="resulte_form1" class="d-none">ここに表示</div>
+  </div>
+  <slot name="OverrideFoot">
+    <script is:inline src="/js/Login.js"></script>
+    <slot name="AppendFoot">
+  </slot>
+</Layout>
+
+<style>
+	main {
+		padding: 1rem;
+	}
+</style>
