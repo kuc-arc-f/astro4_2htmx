@@ -20,6 +20,13 @@ htmx + astro4, example
 https://stackblitz.com/~/github.com/kuc-arc-f/astro4_2htmx
 
 ***
+### example
+
+* simple_auth: auth sample, .env file set user etc
+* api_test: api , d1 database sample
+* turso_test: Turso LibSQL sample
+
+***
 ### build
 
 * build, dev-start
