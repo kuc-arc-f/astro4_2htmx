@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<h1>zod1.astro!</h1>
+    <hr />
+    <form
+    hx-post="/api/zod/zod1"
+    hx-trigger="submit"
+    hx-target="#resulte_form1"
+    hx-on::after-request="Zod1.afterPostForm1()"
+    >
+      <label>title</label>
+      <input type="text" name="title" /><br />
+      <label>content</label>
+      <input type="text" name="content" />
+      <button type="submit">Add</button>
+    </form>
+    <hr />
+    <div id="resulte_form1" class="d-none">ここに表示</div>
+	</main>
+  <script is:inline src="/js/Zod1.js"></script>
+</Layout>
+
+<style>
+</style>
