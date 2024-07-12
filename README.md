@@ -6,7 +6,7 @@
 
  date    : 2024/07/07   
 
- update : 2024/07/12
+ update : 2024/07/13
 
 ***
 
@@ -25,6 +25,7 @@ https://stackblitz.com/~/github.com/kuc-arc-f/astro4_2htmx
 * simple_auth: auth sample, .env file set user etc
 * api_test: api , d1 database sample
 * turso_test: Turso LibSQL sample
+* zod: zod form check
 
 ***
 ### build
